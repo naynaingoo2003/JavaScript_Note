@@ -6,8 +6,8 @@
 	for(let i =0; i < numberTwo.length; i++){
 		let currentArray = numberTwo[i]; //[1,2]
 
-		for (let i = 0; i < currentArray.length; i++) {
-			let currentElement = currentArray[i];
+		for (let j = 0; j < currentArray.length; j++) {
+			let currentElement = currentArray[j];
 			console.log(currentElement); // 1 2 3 4 5 6 7 8 
 		}	
 	}
