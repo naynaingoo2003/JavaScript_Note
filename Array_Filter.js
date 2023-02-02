@@ -28,6 +28,11 @@
 		// arrEmail is become object 
 		return arrEmail.email.length === 14;
 	}
+	/*
+	arrow key function
+	const isMale = arrElement => arrElement.gender === "Male";
+	const isEmail = arrEmail =>arrEmail.email.length === 14; 
+	*/
 
 	let maleMember = members.filter(isMale);
 	let emailMaleMember = members.filter(isEmail);
